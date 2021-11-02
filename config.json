@@ -10,11 +10,11 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Bot Mank",
-    "PREFIX": "%",
+    "BOTNAME": "Bot Mess",
+    "PREFIX": "/",
     "ADMINBOT": [
-        "100024229865456",
-        "100065882114788"
+        " ",
+        " "
     ],
     "DATABASE": {
         "sqlite": {
@@ -59,8 +59,8 @@
         "SAUCENAO_API": "61e802b1478f8e85198f28ed6ac2de6efe5d0a41"
     },
     "sing": {
-        "YOUTUBE_API": "AIzaSyBDYHNvjjypPX1CGE7qcW9GSo_CAEWRw9s ",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+        "YOUTUBE_API": " ",
+        "SOUNDCLOUD_API": ""
     },
     "video": {
         "YOUTUBE_API": "AIzaSyBDYHNvjjypPX1CGE7qcW9GSo_CAEWRw9s "
@@ -86,7 +86,7 @@
         "bitlyAPI": ""
     },
     "sim": {
-        "APIKEY": "Meew_6DLjqmLA1hXZN0nuPQNjWmBNzQLEYY"
+        "APIKEY": " "
     },
     "cave": {
         "cooldownTime": 1000000
@@ -116,7 +116,7 @@
         "APIKEY": "mi451266190"
     },
     "singv2": {
-        "YOUTUBE_API": "AIzaSyBDYHNvjjypPX1CGE7qcW9GSo_CAEWRw9s "
+        "YOUTUBE_API": "  "
     },
     "sortword": {
         "APIKEY": ""
@@ -146,7 +146,7 @@
         "delThread": ""
     },
     "tikvideo": {
-        "APIKEY": "a012e05802msh4ce48bff26d5c0ap151d85jsn4edde7f89de0"
+        "APIKEY": " "
     },
     "activity": {
         "enable": true
