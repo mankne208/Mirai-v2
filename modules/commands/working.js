@@ -116,10 +116,4 @@ module.exports.run = async ({  event, api, handleReply, Currencies, getText }) =
           })  
         })
     }
-}me,
-            author: event.senderID,
-            messageID: info.messageID
-          })  
-        })
-    }
 }
