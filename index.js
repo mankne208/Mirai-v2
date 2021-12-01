@@ -1,4 +1,4 @@
-const { spawn } = require("child_process");
+  const { spawn } = require("child_process");
 const { readFileSync } = require("fs-extra");
 const http = require("http");
 const axios = require("axios");
@@ -11,7 +11,7 @@ const logger = require("./utils/log");
 /////////////////////////////////////////////
 
 const nodeVersion = semver.parse(process.version);
-if (nodeVersion.major < 13) {
+if (nodeVersion.major < 12) {
     logger(`Your Node.js ${process.version} is not supported, it required Node.js 13 to run bot!`, "error");
     return process.exit(0);
 };
@@ -22,13 +22,18 @@ if (nodeVersion.major < 13) {
 
 const dashboard = http.createServer(function (_req, res) {
     res.writeHead(200, "OK", { "Content-Type": "text/plain" });
-    res.write("HI! THIS BOT WAS MADE BY ME(CATALIZCS) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯");
+    res.write("HI! THIS MY BOT OK");
     res.end();
 });
 
 dashboard.listen(process.env.port || 0);
 
-logger("Opened server site...", "[ Starting ]");
+logger("HAIIII", "[ MANK ]");
+logger("Chào mừng đến với thế giới của", "[ MANK ]");
+logger("ỤA MANK NÈ", "[ MANK ]");
+logger("Đang kiểm tra phiên bản...", "[ UPDATE ]");
+logger("Phiên bản của bạn đang là mới nhất!", "[ UPDATE ]");
+logger("Hihihihi", "[Kkk ]");
 
 /////////////////////////////////////////////////////////
 //========= Create start bot and make it loop =========//
