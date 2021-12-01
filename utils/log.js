@@ -9,7 +9,7 @@ module.exports = (data, option) => {
 			console.log(chalk.red('[ ❕ Lỗi rồi ] » ') + data);
 			break;
 		default:
-			console.log(chalk.magenta(`${option} » `) + data);
+			console.log(chalk.bgMagenta(`${option} » `) + data);
 			break;
 	}
 }
@@ -17,13 +17,13 @@ module.exports = (data, option) => {
 module.exports.loader = (data, option) => {
 	switch (option) {
 		case "warn":
-			console.log(chalk.yellow('[N-MANK ] » ') + data);
+			console.log(chalk.bgYellowBright('[N-MANK ] » ') + data);
 			break;
 		case "error":
-			console.log(chalk.red('[N-MANK ] » ') + data);
+			console.log(chalk.bgRed('[N-MANK ] » ') + data);
 			break;
 		default:
-			console.log(chalk.green(`[N-MANK ] » `) + data);
+			console.log(chalk.bgCyanBright(`[N-MANK ] » `) + data);
 			break;
 	}
 }
